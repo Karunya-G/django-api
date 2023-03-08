@@ -130,13 +130,13 @@ STATIC_ROOT= os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-from datetime import timedelta
+# from datetime import timedelta
 
-SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME':timedelta(minutes=10),
-    'REFRESH_TOKEN_LIFETIME':timedelta(days=2),
-    'ROTATE_REFRESH_TOKENS':False,
-}
+# SIMPLE_JWT = {
+#     'ACCESS_TOKEN_LIFETIME':timedelta(minutes=10),
+#     'REFRESH_TOKEN_LIFETIME':timedelta(days=2),
+#     'ROTATE_REFRESH_TOKENS':False,
+# }
 
 
 # MEDIA_URL = '/media/'

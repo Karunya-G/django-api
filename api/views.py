@@ -16,23 +16,23 @@ from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIV
 class AnnoteListCreate(ListCreateAPIView):
     queryset = Annote.objects.all()
     serializer_class = AnnoteSerializer
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [IsAuthenticated]
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [IsAuthenticated]
 
 class AnnoteRetrieveUpdateDestroy(RetrieveUpdateDestroyAPIView):
     queryset = Annote.objects.all()
     serializer_class = AnnoteSerializer
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [IsAuthenticated]
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [IsAuthenticated]
 
 class ImageListCreate(ListCreateAPIView):
     queryset = Imagess.objects.all()
     serializer_class = ImagesSerializer
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [IsAuthenticated]
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [IsAuthenticated]
 
 class ImageRetrieveUpdateDestroy(RetrieveUpdateDestroyAPIView):
     queryset = Imagess.objects.all()
     serializer_class = ImagesSerializer
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [IsAuthenticated]
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [IsAuthenticated]
